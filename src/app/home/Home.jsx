@@ -26,6 +26,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="html"
               />
             </li>
             <li className="transition-transform duration-300 hover:scale-125 ">
@@ -37,6 +38,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="css"
               />
             </li>
             <li className="transition-transform duration-300 hover:scale-125 cursor-pointer ">
@@ -48,6 +50,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="tailwind"
               />
             </li>
           </ul>
@@ -63,6 +66,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="javascript"
               />
             </li>
             <li className="transition-transform duration-300 hover:scale-125 cursor-pointer ">
@@ -74,6 +78,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="react"
               />
             </li>
             <li className="transition-transform duration-300 hover:scale-125 cursor-pointer ">
@@ -85,6 +90,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="next"
               />
             </li>
           </ul>
@@ -100,6 +106,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="java"
               />
             </li>
             <li className="mix-blend-multiply transition-transform duration-300 hover:scale-125 cursor-pointer ">
@@ -111,6 +118,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="mysql"
               />
             </li>
             <li className="transition-transform duration-300 hover:scale-125 cursor-pointer ">
@@ -122,6 +130,7 @@ const Home = () => {
                   isLoaded ? "blur-loaded" : "blur-initial"
                 }`}
                 onLoadingComplete={() => setIsLoaded(true)}
+                alt="tailwind"
               />
             </li>
           </ul>

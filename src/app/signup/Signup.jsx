@@ -38,6 +38,7 @@ const Signup = () => {
                 layout="fill"
                 className="rounded-[48px]"
                 loading="eager"
+                alt="earth"
               />
               {slide ? (
                 <div className="z-[50] bg-pink-500 h-[60px] w-[200px] flex justify-center items-center rounded-[40px]">

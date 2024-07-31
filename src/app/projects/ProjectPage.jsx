@@ -4,7 +4,7 @@ import CustomNavbar from "@/components/CustumNavbar";
 import Image from "next/image";
 import Link from "next/link";
 
-const ProjectCard = ({ title, imageSrc, projectLink, onClick }) => (
+const ProjectCard = ({ title, imageSrc, projectLink, onClick,alt }) => (
   <div>
     <div className="text-center text-[30px] transition-transform duration-300 hover:scale-[1.1] mt-[50px]">
       {title}
@@ -15,6 +15,7 @@ const ProjectCard = ({ title, imageSrc, projectLink, onClick }) => (
         height={300}
         width={450}
         className="transition-transform duration-300 hover:scale-[1.1]"
+        alt={alt}
         priority
       />
     </div>
@@ -42,24 +43,28 @@ const ProjectPage = () => {
             imageSrc="/spotify.png"
             projectLink="https://adil-spotify.netlify.app/"
             onClick={openModal}
+            alt="spotify"
           />
           <ProjectCard
             title="Twitter"
             imageSrc="/twitter.png"
             projectLink="https://adil-twit.netlify.app/"
             onClick={openModal}
+            alt="twitter"
           />
           <ProjectCard
             title="Lasles VPN"
             imageSrc="/laslesvpn.png"
             projectLink="https://adil-laslesvpn.netlify.app/"
             onClick={openModal}
+            alt="lasles vpn"
           />
           <ProjectCard
             title="Clock"
             imageSrc="/clock.png"
             projectLink="https://adil-clockwebapp.netlify.app/"
             onClick={openModal}
+            alt="clock"
           />
         </div>
 
@@ -77,6 +82,7 @@ const ProjectPage = () => {
                 height={300}
                 width={950}
                 className="object-cover"
+                alt ="image"
               />
             </Link>
           </div>

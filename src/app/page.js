@@ -40,7 +40,6 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="Picture of the author"
-            className=""
           />
           <div className="absolute text-white font-[1100] flex flex-col h-[80vh] w-[50vw] justify-between">
             <div className="flex gap-[80px] flex-col text-[25px] text-justify h-[70vh] ">
