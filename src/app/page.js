@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState,useCallback } from "react";
+import { useState, useCallback } from "react";
 const Home = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const handleImageLoad = useCallback(() => {
@@ -19,7 +19,7 @@ const Home = () => {
             objectFit="cover"
             placeholder="blur"
             blurDataURL="/man.png"
-            className={`transition-filter duration-500 ease-in-out ${                                                                                      
+            className={`transition-filter duration-500 ease-in-out ${
               isLoaded ? "blur-loaded" : "blur-initial"
             }`}
             onLoadingComplete={handleImageLoad}
@@ -42,9 +42,9 @@ const Home = () => {
             alt="Picture of the author"
           />
           <div className="absolute text-white font-[1100] flex flex-col h-[80vh] w-[50vw] justify-between">
-            <div className="flex gap-[80px] flex-col text-[25px] text-justify h-[70vh] ">
+            <div className="flex gap-[80px] flex-col text-[25px] text-justify h-[70vh]">
               <p>
-                Hello! I'm Adil Malik, a passionate and enthusiastic web
+                Hello! I am Adil Malik, a passionate and enthusiastic web
                 developer eager to embark on a professional journey in the world
                 of web development.
               </p>
@@ -54,9 +54,11 @@ const Home = () => {
                 visually appealing websites.
               </p>
             </div>
-            <div className=" flex justify-end ">
+            <div className="flex justify-end">
               <Link href="/home">
-              <button className="h-[50px] w-[200px] bg-blue-500 text-[30px]">START</button>
+                <button className="h-[50px] w-[200px] bg-blue-500 text-[30px]">
+                  START
+                </button>
               </Link>
             </div>
           </div>
