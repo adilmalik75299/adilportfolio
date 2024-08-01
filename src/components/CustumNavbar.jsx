@@ -88,7 +88,7 @@ const CustomNavbar = () => {
           <section  className={`
            top-[70px]  h-[400px] w-[100px] bg-gray-200 absolute 
           flex flex-col items-start justify-evenly items-center transition-all
-          transition-transform duration-300 
+          transition-transform duration-1000 
           ${openSlide ? 'transition right-[10px]':'right-[-120px]'}
           dm-md:hidden md:hidden dm-hm:flex rounded-b-[10px] shadow-[-5px_20px_25px_-5px_rgba(0,0,0,0.3)]
         `}>
