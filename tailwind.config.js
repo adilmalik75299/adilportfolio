@@ -18,6 +18,7 @@ module.exports = {
         'max-md': {'max': '767px'},  // max-width: 767px
         'dm-md': {'min': '320px', 'max': '767px'},  // min-width: 320px and max-width: 767px
         'dm-hm':{'min':'320px','max':'500px'},
+        'hm-md':{'min':'500px','max':'767px'}
       },
     },
   },
