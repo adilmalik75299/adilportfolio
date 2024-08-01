@@ -23,7 +23,7 @@ const Signup = () => {
       <div className="bg-gray-900   flex flex-col  overflow-x-hidden ">
         <div className="text-[50px] text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500 text-center pt-[120px]">login</div>
         <div className="flex justify-evenly  h-screen w-screen   ">
-          <div className="bg-white mt-[50px] w-[40vw] h-[500px] rounded-[50px] flex flex-col justify-evenly items-center">
+          <div className="relative bg-white mt-[50px] w-[40vw] h-[500px] rounded-[50px] flex flex-col justify-evenly items-center">
             <div
               className={`absolute h-[500px] w-[40vw] rounded-[50px] flex flex-col justify-center items-center transition-transform duration-500 ${
                 slide &&
