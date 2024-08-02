@@ -20,7 +20,7 @@ const CustomNavbar = () => {
     <>
       <header className=" md:h-[100px]  dm-md: h-[70px]  p-4  flex items-center justify-between fixed z-[60] w-screen bg-white shadow-lg">
         <Link href="/">
-          <div className=" flex justify-center bg-blue-500 rounded-full h-[70px] w-[70px] dm-md:h-[50px] dm-md:w-[50px] overflow-hidden">
+          <div className=" flex justify-center  bg-blue-500 rounded-full h-[70px] w-[70px] dm-md:h-[50px] dm-md:w-[50px] overflow-hidden">
             <Image
               src="/man.png"
               height={60}
@@ -38,9 +38,9 @@ const CustomNavbar = () => {
               </li>
             </Link>
             <Link href="/projects">
-              <li className="relative text-[25px] dm-md:text-[18px] transition ease-in-out delay-100 hover:text-blue-500 font-light duration-500 cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-500 after:scale-x-0 after:origin-bottom-right hover:after:origin-bottom-left hover:after:scale-x-100 after:transition after:duration-500">
-                Projects
-              </li>
+              <div className="relative text-[25px] dm-md:text-[18px] transition transition-transform duration-300 hover:scale-150 ">
+              <GrProjects />
+              </div>
             </Link>
 
             <Link href="https://github.com/AadilMalik786" target="_blank">
@@ -74,7 +74,7 @@ const CustomNavbar = () => {
             </Link>
 
             <Link href="/login">
-              <li className="text-[23px] relative text-[25px] dm-md:text-[20px] transition ease-in-out delay-100 hover:text-blue-500 font-light duration-500 cursor-pointer after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-500 after:scale-x-0 after:origin-bottom-right hover:after:origin-bottom-left hover:after:scale-x-100 after:transition after:duration-500">
+              <li className="text-[23px] relative text-[25px] dm-md:text-[20px] transition-transform duration-300 hover:scale-125  ">
               <FaRegUserCircle />
               </li>
             </Link>
