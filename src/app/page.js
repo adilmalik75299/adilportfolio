@@ -10,7 +10,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="flex dm-md:flex-col items-center hm-md:w-screen">
+      <div className="flex dm-md:flex-col items-center hm-md:w-screen overflow-x-hidden">
         <div className="dm-md:p-[20px] bg-[linear-gradient(90deg,#000000,#737373)] dm-md:bg-blue-500 md:bg-[linear-gradient(90deg,#000000,#737373)] md:w-[40vw] dm-md:w-screen  md:h-screen md:relative flex  dm-md:justify-between items-end ">
           <Image
             src="/man.png"
