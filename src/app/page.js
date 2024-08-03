@@ -31,7 +31,9 @@ const Home = () => {
               height={230}
               width={230}
               alt="this is logo"
-              className=""
+              className={`transition-filter duration-500 ease-in-out  ${
+                isLoaded ? "blur-loaded" : "blur-initial"
+              }`}
             />
           </div>
           <div className="text-zinc-950 dm-md:static md:absolute  dm-md:w-[50vw]  md:w-[40vw] h-[100px] flex flex-col  justify-center items-center dm-md:leading-[30px] md:leading-[34px]">
@@ -50,8 +52,8 @@ const Home = () => {
             objectFit="cover"
             alt="Picture of the author"
           />
-          <div className="absolute text-white font-[1100] flex flex-col dm-md:p-[20px]  dm-md:overflow-scroll scrollbar-hide md:overflow-scroll h-[70vh] dm-md:w-screen w-[50vw] justify-between">
-            <div className="flex gap-[80px] dm-md:gap-[20px] flex-col text-[25px] dm-md:text-[3vw]  md:text-justify dm-md:h-[70vh] md:h-[500px]">
+          <div className="absolute  dm-md:top-0  dm-md:h-[100vh]  text-white font-[1100] flex flex-col dm-md:p-[20px]  dm-md:overflow-scroll scrollbar-hide md:overflow-scroll md:h-[70vh] dm-md:w-screen w-[50vw]  justify-between">
+            <div className="flex gap-[80px] dm-md:gap-[20px] flex-col text-[25px] dm-md:text-[5vw]  md:text-justify  md:h-[500px]">
               <p>
                 Hello! I am Adil Malik, a passionate and enthusiastic web
                 developer eager to embark on a professional journey in the world
@@ -65,9 +67,11 @@ const Home = () => {
             </div>
             <div className="flex justify-end">
               <Link href="/home">
-                <button className="h-[50px] w-[200px] bg-blue-500 text-[30px]">
+                <div className="h-[50px]  w-[200px] rounded-[20px] dm-md:h-[40px] dm-md:w-[150px] dm-md:text-[20px] bg-blue-500 text-[30px]">
+                <button className="h-[inherit] w-[inherit]">
                   START
                 </button>
+                </div>
               </Link>
             </div>
           </div>
