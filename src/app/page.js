@@ -45,14 +45,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-[60vw] h-screen flex justify-center dm-md:w-screen items-center">
+        <div className="relative w-[60vw] h-screen flex justify-center dm-md:w-screen overflow-x-hidden items-center">
           <Image
             src="/backgroundimage.png"
             layout="fill"
             objectFit="cover"
             alt="Picture of the author"
           />
-          <div className="absolute  dm-md:top-0  dm-md:h-[100vh]  text-white font-[1100] flex flex-col dm-md:p-[20px]  dm-md:overflow-scroll scrollbar-hide md:overflow-scroll md:h-[70vh] dm-md:w-screen w-[50vw]  justify-between">
+          <div className="absolute  dm-md:top-0  dm-md:h-[100vh]  text-white font-[1100] overflow-x-hidden flex flex-col dm-md:p-[20px]  dm-md:overflow-scroll scrollbar-hide md:overflow-scroll md:h-[70vh] dm-md:w-screen w-[50vw]  justify-between">
             <div className="flex gap-[80px] dm-md:gap-[20px] flex-col text-[25px] dm-md:text-[5vw]  md:text-justify  md:h-[500px]">
               <p>
                 Hello! I am Adil Malik, a passionate and enthusiastic web
