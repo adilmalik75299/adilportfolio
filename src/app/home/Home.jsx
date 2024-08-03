@@ -13,7 +13,7 @@ const Home = () => {
       <section >
         <h1 className="text-[50px] text-center dm-hm:text-[30px]  pt-[120px] ">MY SKILLS</h1>
       </section>
-      <main className="flex bg-re-500 h-[400px] mb-[150px] justify-evenly items-center">
+      <main className="flex  h-[400px] mb-[150px] justify-evenly items-center">
         <section>
           <ul className="flex items-center justify-between bg-re-500 h-[350px] flex-col text-[50px]">
             <li className="transition-transform duration-300 hover:scale-125 cursor-pointer dm-hm:h-[70px] dm-hm:w-[70px] ">
